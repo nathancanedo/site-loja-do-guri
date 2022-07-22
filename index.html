@@ -22,7 +22,35 @@
     <main>
         <div class="content">
             <div class="slides">
-                <input type="radio" name="" id=""><input type="radio" name="" id=""><input type="radio" name="" id=""><input type="radio" name="" id=""><input type="radio" name="" id="">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="imagens/bebeepai.jpg" alt="pai segurando filho">
+                </div>
+                <div class="slide">
+                    <img src="imagens/brinquedos.jpg" alt="brinquedos">
+                </div>
+                <div class="slide">
+                    <img src="imagens/roupas.jpg" alt="roupas de bebe">
+                </div>
+                <div class="slide">
+                    <img src="imagens/christopher-luther-90bvtgQfL3M-unsplash.jpg" alt="mãe segurando filho">
+                </div>
+                <div class="slide">
+                    <img src="imagens/derek-owens-ilJF9lJDjJY-unsplash.jpg" alt="pai segurando filho">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label class="bar" for="slide1" id="nav1" onclick="nav1()"></label>
+                <label class="bar" for="slide2" id="nav2" onclick="nav2()"></label>
+                <label class="bar" for="slide3" id="nav3" onclick="nav3()"></label>
+                <label class="bar" for="slide4" id="nav4" onclick="nav4()"></label>
+                <label class="bar" for="slide5" id="nav5" onclick="nav5()"></label>
             </div>
         </div>
         <section id="sobre">
@@ -60,5 +88,6 @@
             </a>
         </section>
     </main>
+    <script src="script/slider.js"></script>
 </body>
 </html>

@@ -23,10 +23,6 @@ html {
     scroll-behavior: smooth;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     background-color: var(--cor1);
 
@@ -156,6 +152,9 @@ div#whatsapp:hover {
 }
 
 @media (max-width: 377px) {
+    header img {
+        width: 250px;
+    }
     section#produtos img {
         width: 250px;
     }
