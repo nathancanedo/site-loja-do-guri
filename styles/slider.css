@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 nav {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .content {
@@ -77,7 +77,14 @@ input {
 }
 
 @media (max-width: 673px) {
+    nav {
+        margin-bottom: 0px;
+    }
+
     .content {
+        
+        border-radius: 0;
+
         width: 100%;
         height: auto;
     }

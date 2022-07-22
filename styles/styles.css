@@ -116,12 +116,15 @@ div#local p {
     font-size: 1.1em;
 }
 
+div#mapa {
+    display: inline-block;
+}
 
 section#contato {
     text-align: center;
 }
 
-div#whatsapp {
+section#contato div {
     display:inline-block;
     font-size: 1.5em;
     padding: 15px;
@@ -134,9 +137,11 @@ div#whatsapp {
     color: #5a5a5a;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+
+    margin-left: 10px;
 }
 
-div#whatsapp img {
+section#contato img {
     width: 50px;
     height: 50px;
 
@@ -144,15 +149,15 @@ div#whatsapp img {
     margin-bottom: 20px;
 }
 
-div#whatsapp p {
+section#contato p {
     font-size: 0.7em;
 }
 
-div#whatsapp:hover {
+section#contato div:hover {
     text-decoration: underline;
     background-color: #0186b6;
 
-    transform: translate(-5px, -5px);
+    transform: translate(0, -5px);
 
     transition: all .2s;
 
@@ -160,6 +165,9 @@ div#whatsapp:hover {
 }
 
 @media (max-width: 852px) {
+
+   
+
     section#produtos img {
         width: 350px;
     }
