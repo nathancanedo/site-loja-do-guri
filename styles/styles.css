@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #d2f1f6;
+    --cor2: #00b1f2;
+    --cor3: 
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +30,28 @@ header {
     text-align: center;
     background-color: #00b1f2;
     padding: 20px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.397);
+}
+
+nav {
+    background-color: #00b1f2;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.397);
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 11px;
+}
+
+nav a:hover{
+    background-color: #d2f1f6;
+    text-decoration: underline;
+    color: var(--cor2);
+
+    transition: all .3s;
 }
 
 section#container {
