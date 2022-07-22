@@ -3,9 +3,12 @@
 :root {
     --cor1: #d2f1f6;
     --cor2: #00b1f2;
-    --cor3: 
+    --cor3: #ff7fb7;
+    --cor4: #00b1f1;
+    --cor5: #b9b9b9;
+    --cor6: #ffdf3f;
+    --cor7: #3bffab;
 }
-
 
 * {
     margin: 0;
@@ -17,23 +20,19 @@ html, body {
 }
 
 body {
-    background-color: #d2f1f6;
+    background-color: var(--cor1);
 
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    width: 200px;
-}
-
 header {
     text-align: center;
-    background-color: #00b1f2;
+    background-color: var(--cor2);
     padding: 20px;
 }
 
 nav {
-    background-color: #00b1f2;
+    background-color: var(--cor2);
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.397);
     padding: 15px;
 }
@@ -47,35 +46,46 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #d2f1f6;
+    background-color: var(--cor1);
     text-decoration: underline;
     color: var(--cor2);
 
     transition: all .3s;
 }
 
+main {
+    line-height: 1.5em;
+    text-align: justify;    
+}
+
+main h1 {
+    color: var(--cor5);
+    margin: 20px;
+    font-size: 2.6em;
+    text-align: center;
+}
+
+section#sobre {
+    margin: auto;
+    max-width: 800px;
+    padding: 30px;
+}
+
 section#container {
     text-align: center;
-    color: #b9b9b9;
-
 }
 
-h1 {
-    margin: 50px;
-    font-size: 2.6em;
-}
 
 div#whatsapp {
     display:inline-block;
     font-size: 1.5em;
     padding: 15px;
 
-    /* border: 1px solid black; */
     border-radius: 1000px;
     width: 250px;
     height: 250px;
 
-    background-color: #00b1f2;
+    background-color: var(--cor2);
     color: #5a5a5a;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
