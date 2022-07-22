@@ -9,6 +9,12 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: #d2f1f6;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
     width: 200px;
 }
@@ -18,8 +24,14 @@ section#container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: #b9b9b9;
+
 }
 
-body {
-    background-color: #d2f1f6;
+h1 {
+    margin: 50px;
+    font-size: 2.6em;
 }
+
