@@ -19,12 +19,14 @@ img {
     width: 200px;
 }
 
-section#container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+header {
+    text-align: center;
+    background-color: #00b1f2;
+    padding: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.397);
+}
 
+section#container {
     text-align: center;
     color: #b9b9b9;
 
@@ -35,3 +37,36 @@ h1 {
     font-size: 2.6em;
 }
 
+div#whatsapp {
+    display:inline-block;
+    font-size: 1.5em;
+    padding: 15px;
+
+    /* border: 1px solid black; */
+    border-radius: 1000px;
+    width: 250px;
+    height: 250px;
+
+    background-color: #00b1f2;
+    color: #5a5a5a;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+}
+
+div#whatsapp img {
+    width: 120px;
+    height: 120px;
+
+    margin-top: 40px;
+}
+
+div#whatsapp:hover {
+    text-decoration: underline;
+    background-color: #0186b6;
+
+    transform: translate(-5px, -5px);
+
+    transition: all .2s;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+}
