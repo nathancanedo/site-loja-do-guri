@@ -15,6 +15,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     height: 100%;
 }
@@ -60,21 +64,47 @@ main {
 
 main h1 {
     color: var(--cor5);
-    margin: 20px;
+    padding:50px;
     font-size: 2.6em;
     text-align: center;
 }
 
-section#sobre {
+section#sobre{
     margin: auto;
     max-width: 800px;
-    padding: 30px;
+}
+ 
+section#sobre p{
+    text-indent: 2em;
+    padding: 10px
 }
 
-section#container {
+section#produtos {
     text-align: center;
 }
 
+section#produtos div{
+    display: inline-block;
+}
+
+section#produtos p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin: auto;
+}
+
+section#produtos img {
+    width: 400px;
+    padding: 10px;
+    border-radius: 15%;
+    margin:30px 0;
+}
+
+section#contato {
+    text-align: center;
+}
 
 div#whatsapp {
     display:inline-block;
@@ -107,4 +137,21 @@ div#whatsapp:hover {
     transition: all .2s;
 
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+}
+
+@media (max-width: 852px) {
+    section#produtos img {
+        width: 350px;
+    }
+
+    section#produtos div {
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 377px) {
+    section#produtos img {
+        width: 250px;
+    }
 }
