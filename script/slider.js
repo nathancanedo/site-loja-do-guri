@@ -30,7 +30,7 @@ document.querySelector('#nav1').style.backgroundColor = 'white';
 
 setInterval( function(){
     nextImage();
-}, 5000)
+}, 3000)
 
 function nextImage() {
     count++;
