@@ -32,12 +32,12 @@ body {
 header {
     text-align: center;
     background-color: var(--cor2);
-    padding: 20px;
+    padding-top: 10px;
 }
 
 nav {
     background-color: var(--cor2);
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.397);
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.164);
     padding: 15px;
 }
 
@@ -103,6 +103,20 @@ section#produtos img {
     margin:30px 0;
 }
 
+section#endereco {
+    padding: 0 20px;
+    text-align: center;
+}
+
+div#local {
+    margin-bottom: 30px;
+}
+
+div#local p {
+    font-size: 1.1em;
+}
+
+
 section#contato {
     text-align: center;
 }
@@ -113,8 +127,8 @@ div#whatsapp {
     padding: 15px;
 
     border-radius: 1000px;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 
     background-color: var(--cor2);
     color: #5a5a5a;
@@ -123,10 +137,15 @@ div#whatsapp {
 }
 
 div#whatsapp img {
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
 
     margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div#whatsapp p {
+    font-size: 0.7em;
 }
 
 div#whatsapp:hover {
@@ -148,6 +167,10 @@ div#whatsapp:hover {
     section#produtos div {
         display:block;
         text-align: center;
+    }
+
+    iframe {
+        width: 100%;
     }
 }
 

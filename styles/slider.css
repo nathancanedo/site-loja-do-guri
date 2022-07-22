@@ -78,7 +78,7 @@ input {
 
 @media (max-width: 673px) {
     .content {
-        width: 400px;
+        width: 100%;
         height: auto;
     }
 
@@ -92,7 +92,7 @@ input {
     }
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .content {
         width: 350px;
     }
@@ -103,4 +103,4 @@ input {
     .content {
         width: 300px
     }
-}
+} */
