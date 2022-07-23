@@ -39,6 +39,11 @@ header {
     padding-top: 10px;
 }
 
+img.bebe {
+    height: 200px;
+    width: auto;
+} 
+
 nav {
     background-color: var(--cor2);
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24);
@@ -53,7 +58,7 @@ nav a {
     border-radius: 11px;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: var(--cor1);
     text-decoration: underline;
     color: var(--cor2);
@@ -130,9 +135,10 @@ section#contato {
 }
 
 section#contato div {
-    display:inline-block;
+
+    display: inline-block;
     font-size: 1.5em;
-    padding: 15px;
+    padding: 25px;
 
     border-radius: 1000px;
     width: 150px;
@@ -144,6 +150,7 @@ section#contato div {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
 
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 section#contato a {
@@ -194,8 +201,13 @@ footer a:hover {
 
 @media (max-width: 852px) {
 
-    header img {
+    img#logo {
         width: 245px;
+    }
+
+    img.bebe {
+        height: 120px;
+        width: auto;
     }
 
     header {
@@ -225,9 +237,22 @@ footer a:hover {
 }
 
 @media (max-width: 377px) {
-    header img {
+
+    img#logo {
         width: 250px;
     }
+    img.bebe {
+        display: none;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    iframe {
+        width: 85vw;
+    }
+
     section#produtos img {
         width: 250px;
     }
