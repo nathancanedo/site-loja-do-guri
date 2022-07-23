@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tudo para seu bebê">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/slider.css">
+    <title>Loja Do Guri</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/bebe-200px.png" alt="logo bebe" class="bebe">
+        <img src="imagens/logo-pq.png" alt="loja do Guri" id="logo">
+        <img src="imagens/bebe-200px-invertido.png" alt="logo bebe" class="bebe">
+    </header>
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#endereco">Endereço</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="imagens/bebeepai.jpg" alt="pai segurando filho">
+                </div>
+                <div class="slide">
+                    <img src="imagens/brinquedos.jpg" alt="brinquedos">
+                </div>
+                <div class="slide">
+                    <img src="imagens/roupas.jpg" alt="roupas de bebe">
+                </div>
+                <div class="slide">
+                    <img src="imagens/christopher-luther-90bvtgQfL3M-unsplash.jpg" alt="mãe segurando filho">
+                </div>
+                <div class="slide">
+                    <img src="imagens/derek-owens-ilJF9lJDjJY-unsplash.jpg" alt="pai segurando filho">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label class="bar" for="slide1" id="nav1" onclick="nav1()"></label>
+                <label class="bar" for="slide2" id="nav2" onclick="nav2()"></label>
+                <label class="bar" for="slide3" id="nav3" onclick="nav3()"></label>
+                <label class="bar" for="slide4" id="nav4" onclick="nav4()"></label>
+                <label class="bar" for="slide5" id="nav5" onclick="nav5()"></label>
+            </div>
+        </div>
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ut impedit quidem repellat animi ea facere earum error nesciunt sit a incidunt reiciendis ad debitis exercitationem molestiae similique, doloremque ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima sunt totam non molestiae officiis quisquam quae, quas nisi odio esse ea placeat nesciunt dolorum suscipit maiores. Doloremque, consequuntur ipsam!</p>
+        </section>
+        <section id="produtos">
+            <h1>Produtos</h1>
+            <div id="brinquedos">
+                <img src="imagens/brinquedos-pq.jpg" alt="brinquedos">
+                <p>Brinquedos</p>
+            </div>
+            <div id="roupas">
+                <img src="imagens/roupas-pq.jpg" alt="roupas">
+                <p>Roupas</p>
+            </div>
+            <div id="carrinhos">
+                <img src="imagens/carrinhos.jpg" alt="carrinhos">
+                <p>Carrinhos</p>
+            </div>
+        </section>
+        <section id="endereco">
+            <h1>Endereço</h1>
+            <div id="local">
+                <address>
+                    <p>Avenida Goiás, 2064 <br> Setor União I <br> Gurupi - TO <br> 77410-010</p>
+                </address>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15626.040726388785!2d-49.0677693!3d-11.7290645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4fd4baede56d902!2sLoja%20do%20Guri!5e0!3m2!1spt-BR!2sbr!4v1658519395661!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+                <a href="https://wa.me/5563992098700?text=Ol%C3%A1%2C+eu+vim+pelo+site." target="_blank">
+                    <div id="whatsapp">
+                        <img src="imagens/whatsapp.png" alt="whatsapp">
+                        <p>(63)9920-98700</p>
+                    </div>
+                </a>
+            <a href="tel:+556333120648">
+                    <div class="telefone">
+                        <img src="imagens/telefone.png" alt="telefone">
+                        <p>(63)3312-0648</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/lojadoguribaby/" target="_blank">
+                    <div id="instagram">
+                        <img src="imagens/instagram.png" alt="instagram">
+                        <p>@lojadoguribaby</p>
+                    </div>
+                </a>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por <strong><a href="https://www.linkedin.com/in/nathancanedo/" target="_blank">Nathan Canedo</a></strong></p>
+    </footer>
+    <script src="script/slider.js"></script>
+</body>
+</html>
