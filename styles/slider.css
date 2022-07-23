@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-nav {
-    margin-bottom: 15px;
-}
-
 .content {
     height: 427px;
     width: 640px;
@@ -12,6 +8,7 @@ nav {
     position: relative;
 
     margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 }
 
 .navigation {
@@ -87,6 +84,8 @@ input {
 
         width: 100%;
         height: auto;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+        box-shadow: none;
     }
 
     .navigation {
