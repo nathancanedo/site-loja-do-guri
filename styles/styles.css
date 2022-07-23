@@ -194,6 +194,10 @@ footer a:hover {
 
 @media (max-width: 852px) {
 
+    header img {
+        width: 245px;
+    }
+
     header {
         padding-bottom: 15px;
     }
