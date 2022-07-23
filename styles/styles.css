@@ -79,6 +79,10 @@ main h1 {
     text-align: center;
 }
 
+.content {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+}
+
 section#sobre{
     margin: auto;
     max-width: 800px;
