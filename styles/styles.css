@@ -19,6 +19,10 @@
     padding: 0;
 }
 
+html, body {
+    height: 100vh;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -37,7 +41,7 @@ header {
 
 nav {
     background-color: var(--cor2);
-    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24);
     padding: 15px;
 }
 
@@ -118,6 +122,7 @@ div#local p {
 
 div#mapa {
     display: inline-block;
+    
 }
 
 section#contato {
@@ -139,6 +144,10 @@ section#contato div {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
 
     margin-left: 10px;
+}
+
+section#contato a {
+    text-decoration: none;
 }
 
 section#contato img {
@@ -164,9 +173,38 @@ section#contato div:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
 }
 
+footer {
+    background-color: var(--cor2);
+    padding: 15px;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
+
 @media (max-width: 852px) {
 
-   
+    header {
+        padding-bottom: 15px;
+    }
+
+   nav  {
+    text-align: center;
+   }
+
+   nav a {
+    margin: 0 20px;
+   }
 
     section#produtos img {
         width: 350px;
@@ -178,7 +216,7 @@ section#contato div:hover {
     }
 
     iframe {
-        width: 100%;
+        width: 92vw;
     }
 }
 
