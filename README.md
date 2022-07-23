@@ -8,4 +8,4 @@ A Loja do Gurupi é um empresa localizada em Gurupi - TO, que atua no ramo de br
 
 ## O site
 
-O site ainda está em construção, e você pode acompanhar seu desenvolvimento em **[lojadoguribaby.com.br](lojadoguribaby.com.br)**
+O site ainda está em construção, e você pode acompanhar seu desenvolvimento em **[lojadoguribaby.com.br](index.html)**
