@@ -1,32 +1,47 @@
+const navigation1 = document.querySelector('#nav1');
+const navigation2 = document.querySelector('#nav2');
+const navigation3 = document.querySelector('#nav3');
+const navigation4 = document.querySelector('#nav4');
+const navigation5 = document.querySelector('#nav5');
+
 function nav1() {
-    document.querySelector('#nav' + count).style.backgroundColor = '';
+    navigation1.style.backgroundColor = "white";
+    removeNavBackground();
     count = 1
 }
 
 function nav2() {
-    document.querySelector('#nav' + count).style.backgroundColor = '';
+    navigation2.style.backgroundColor = "white";
+    removeNavBackground();
     count = 2
 }
 
 function nav3() {
-    document.querySelector('#nav' + count).style.backgroundColor = '';
+    navigation3.style.backgroundColor = "white";
+    removeNavBackground();
     count = 3
 }
 
 function nav4() {
-    document.querySelector('#nav' + count).style.backgroundColor = '';
+    navigation4.style.backgroundColor = "white";
+    removeNavBackground();
     count = 4
 }
 
 function nav5() {
-    document.querySelector('#nav' + count).style.backgroundColor = '';
+    navigation5.style.backgroundColor = "white";
+    removeNavBackground();
     count = 5
+}
+
+function removeNavBackground() {
+    document.querySelector('#nav' + count).style.backgroundColor = '';
 }
 
 let count = 1;
 
 document.querySelector('#slide1').checked = true;
-document.querySelector('#nav1').style.backgroundColor = 'white';
+navigation1.style.backgroundColor = 'white';
 
 setInterval( function(){
     nextImage();
@@ -43,7 +58,7 @@ function nextImage() {
     document.querySelector('#nav' + count).style.backgroundColor = 'white';
 
     if (count === 1) {
-        document.querySelector('#nav5').style.backgroundColor = '';
+        navigation5.style.backgroundColor = '';
     } else {
         document.querySelector('#nav' + (count - 1)).style.backgroundColor = '';
     }
