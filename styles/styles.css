@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:wght@400;700&display=swap');
 
 :root {
     --cor1: #d2f1f6;
@@ -12,6 +12,7 @@
     --cor7: #3bffab;
 
     --fonte1: 'Mochiy Pop One', sans-serif;
+    --fonte2: 'Roboto', sans-serif;
 }
 
 * {
@@ -71,6 +72,10 @@ nav a:hover {
 main {
     line-height: 1.5em;
     text-align: justify;    
+}
+
+main p {
+    font-family: var(--fonte2);
 }
 
 main h1 {
@@ -244,7 +249,7 @@ footer a:hover {
         width: 92vw;
     }
 }
-
+/* 
 @media (max-width: 377px) {
 
     img#logo {
@@ -265,4 +270,4 @@ footer a:hover {
     section#produtos img {
         width: 250px;
     }
-}
+} */
