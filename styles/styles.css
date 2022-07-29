@@ -29,15 +29,15 @@ html {
 }
 
 body {
-    background-color: var(--cor1);
-
+    background: var(--cor1) url("../imagens/babyPattern.png");
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     text-align: center;
     background-color: var(--cor2);
-    padding-top: 10px;
+    padding: 15px 0;
 }
 
 img.bebe {
@@ -46,11 +46,13 @@ img.bebe {
 } 
 
 nav {
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.24);
-    background-color: var(--cor2);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.24);
+    background-color: var(--cor3);
     padding-top: 20px;
     padding: 15px;
     margin-bottom: 15px;
+
+    text-align: center;
 }
 
 nav a {
@@ -58,7 +60,8 @@ nav a {
     color: white;
     font-weight: bold;
     padding: 15px 10px;
-    border-radius: 11px;
+    border-radius: 8px;
+    margin-left: 10px;
 }
 
 nav a:hover {
@@ -80,53 +83,78 @@ main p {
 
 main h1 {
     font-family: var(--fonte1);
-    color: var(--cor5);
+    color: white;
     padding:50px;
     font-size: 2.6em;
     text-align: center;
+
+    background-color: var(--cor3);
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.836);
 }
 
 section#sobre{
-    margin: auto;
+    margin: 50px auto;
     max-width: 800px;
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
 }
  
-section#sobre p{
+section#sobre p {
     text-indent: 2em;
-    padding: 10px
+    padding: 20px;
+    margin-top: 10px;
 }
 
 section#produtos {
     text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
 }
 
 section#produtos div{
     display: inline-block;
 }
 
+div#categoriasProdutos {
+    padding: 60px 0;
+}
+
+div.categorias {
+    margin: 0 10px;
+}
+
 section#produtos p{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 30px;
 
-    margin: auto;
+}
+
+div#carrinhos p {
+    margin-bottom: 0;
 }
 
 section#produtos img {
     width: 400px;
     border-radius: 15%;
-    margin:30px 10px;
+    margin-bottom: 30px;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
 }
 
 section#endereco {
-    padding: 0 0;
     text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
 }
 
 div#local {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 div#local p {
@@ -144,11 +172,20 @@ iframe {
     width: 85vw;
 }
 
-section#contato {
-    text-align: center;
+div#mapaEndereco {
+    padding: 60px 0;
 }
 
-section#contato div {
+section#contato {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
+div#conteudoContato {
+    padding: 60px 0;
+}
+
+div.botao {
 
     display: inline-block;
     font-size: 1.5em;
@@ -183,7 +220,7 @@ section#contato p {
     font-size: 0.7em;
 }
 
-section#contato div:hover {
+div.botao:hover {
     text-decoration: underline;
     background-color: #0186b6;
 
@@ -195,11 +232,11 @@ section#contato div:hover {
 }
 
 footer {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding: 15px;
     text-align: center;
 
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 footer a {

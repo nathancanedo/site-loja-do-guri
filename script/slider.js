@@ -5,31 +5,31 @@ const navigation4 = document.querySelector('#nav4');
 const navigation5 = document.querySelector('#nav5');
 
 function nav1() {
-    navigation1.style.backgroundColor = "white";
+    navigation1.style.backgroundColor = "#ff7fb7";
     removeNavBackground();
     count = 1
 }
 
 function nav2() {
-    navigation2.style.backgroundColor = "white";
+    navigation2.style.backgroundColor = "#ff7fb7";
     removeNavBackground();
     count = 2
 }
 
 function nav3() {
-    navigation3.style.backgroundColor = "white";
+    navigation3.style.backgroundColor = "#ff7fb7";
     removeNavBackground();
     count = 3
 }
 
 function nav4() {
-    navigation4.style.backgroundColor = "white";
+    navigation4.style.backgroundColor = "#ff7fb7";
     removeNavBackground();
     count = 4
 }
 
 function nav5() {
-    navigation5.style.backgroundColor = "white";
+    navigation5.style.backgroundColor = "#ff7fb7";
     removeNavBackground();
     count = 5
 }
@@ -41,7 +41,7 @@ function removeNavBackground() {
 let count = 1;
 
 document.querySelector('#slide1').checked = true;
-navigation1.style.backgroundColor = 'white';
+navigation1.style.backgroundColor = '#ff7fb7';
 
 setInterval( function(){
     nextImage();
@@ -55,7 +55,7 @@ function nextImage() {
 
     document.querySelector('#slide' + count).checked = true;
 
-    document.querySelector('#nav' + count).style.backgroundColor = 'white';
+    document.querySelector('#nav' + count).style.backgroundColor = '#ff7fb7';
 
     if (count === 1) {
         navigation5.style.backgroundColor = '';
