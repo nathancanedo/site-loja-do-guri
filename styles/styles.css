@@ -37,6 +37,7 @@ body {
 header {
     text-align: center;
     background-color: var(--cor2);
+    background-image: linear-gradient(to bottom , var(--cor2) , var(--cor3) 95%);
     padding: 15px 0;
 }
 
@@ -46,7 +47,6 @@ img.bebe {
 } 
 
 nav {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.24);
     background-color: var(--cor3);
     padding-top: 20px;
     padding: 15px;
