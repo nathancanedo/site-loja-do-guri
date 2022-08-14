@@ -37,7 +37,7 @@ body {
 header {
     text-align: center;
     background-color: var(--cor2);
-    background-image: linear-gradient(to bottom , var(--cor2) , var(--cor3) 95%);
+    background-image: linear-gradient(to bottom , var(--cor2), var(--cor3) 95%);
     padding: 15px 0;
 }
 
@@ -91,11 +91,10 @@ main h1 {
 }
 
 section {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.911);
 }
 
 section#slider {
-    background-color: rgba(255, 255, 255, 0.801);
     padding: 50px 0px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.432)
 }
@@ -153,6 +152,7 @@ section#produtos img {
 }
 
 section#endereco {
+
     text-align: center;
     margin-bottom: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
