@@ -22,39 +22,39 @@
         <a href="#contato">Contato</a>
     </nav>
     <main>
-        <div class="content">
-            <div class="slides">
-                <input type="radio" name="slide" id="slide1" checked>
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
-                <input type="radio" name="slide" id="slide4">
-                <input type="radio" name="slide" id="slide5">
-
-                <div class="slide s1">
-                    <img src="imagens/fotosLoja/cartaoLoja.jpg" alt="loja do guri">
+        <section id="slider">
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+                    <div class="slide s1">
+                        <img src="imagens/fotosLoja/cartaoLoja.jpg" alt="loja do guri">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/fotosLoja/calhambeque.jpg" alt="calhambeque">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/fotosLoja/roupas-pq.jpg" alt="roupas de bebe">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/fotosLoja/roupas3.jpg" alt="roupas de bebe">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/fotosLoja/roupas2-pq.jpg" alt="roupas de bebe">
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="imagens/fotosLoja/calhambeque.jpg" alt="calhambeque">
-                </div>
-                <div class="slide">
-                    <img src="imagens/fotosLoja/roupas-pq.jpg" alt="roupas de bebe">
-                </div>
-                <div class="slide">
-                    <img src="imagens/fotosLoja/roupas3.jpg" alt="roupas de bebe">
-                </div>
-                <div class="slide">
-                    <img src="imagens/fotosLoja/roupas2-pq.jpg" alt="roupas de bebe">
+                <div class="navigation">
+                    <label class="bar" for="slide1" id="nav1" onclick="nav1()"></label>
+                    <label class="bar" for="slide2" id="nav2" onclick="nav2()"></label>
+                    <label class="bar" for="slide3" id="nav3" onclick="nav3()"></label>
+                    <label class="bar" for="slide4" id="nav4" onclick="nav4()"></label>
+                    <label class="bar" for="slide5" id="nav5" onclick="nav5()"></label>
                 </div>
             </div>
-
-            <div class="navigation">
-                <label class="bar" for="slide1" id="nav1" onclick="nav1()"></label>
-                <label class="bar" for="slide2" id="nav2" onclick="nav2()"></label>
-                <label class="bar" for="slide3" id="nav3" onclick="nav3()"></label>
-                <label class="bar" for="slide4" id="nav4" onclick="nav4()"></label>
-                <label class="bar" for="slide5" id="nav5" onclick="nav5()"></label>
-            </div>
-        </div>
+        </section>
         <section id="sobre">
             <h1>Sobre</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ut impedit quidem repellat animi ea facere earum error nesciunt sit a incidunt reiciendis ad debitis exercitationem molestiae similique, doloremque ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima sunt totam non molestiae officiis quisquam quae, quas nisi odio esse ea placeat nesciunt dolorum suscipit maiores. Doloremque, consequuntur ipsam!</p>
@@ -81,7 +81,9 @@
             <div id="mapaEndereco">
                 <div id="local">
                     <address>
-                        <p>Avenida Goiás, 2064 <br> Setor União I <br> Gurupi - TO <br> 77410-010</p>
+                        <a href="https://www.google.com/maps/place/Loja+do+Guri/@-11.729443,-49.067126,15z/data=!4m5!3m4!1s0x0:0xa7c3aedb4d0007f0!8m2!3d-11.7290841!4d-49.0677536?hl=pt-BR" target="_blank" rel="noopener">
+                            <p>Avenida Goiás, 2064 <br> Setor União I <br> Gurupi - TO <br> 77410-010</p>
+                        </a>
                     </address>
                 </div>
                 <div id="mapa">

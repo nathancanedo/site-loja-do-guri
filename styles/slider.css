@@ -96,5 +96,9 @@ input {
     .bar {
         width: 20px;
     }
+
+    section#slider {
+        padding: 0px;
+    }
 }
 

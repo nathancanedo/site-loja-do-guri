@@ -50,7 +50,6 @@ nav {
     background-color: var(--cor3);
     padding-top: 20px;
     padding: 15px;
-    margin-bottom: 15px;
 
     text-align: center;
 }
@@ -92,7 +91,13 @@ main h1 {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.836);
+    background-color: white;
+}
+
+section#slider {
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 50px 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.432)
 }
 
 section#sobre{
@@ -158,7 +163,27 @@ div#local {
 }
 
 div#local p {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    background-color: var(--cor2);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+
+    line-height: 1.5em;
+
+    text-decoration: none;
+    color: rgb(241, 247, 246);
+}
+
+
+
+div#local p:hover {
+    background-color: #0186b6;
+
+    transform: translate(0, -5px);
+    transition: all .2s;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.301);
 }
 
 div#mapa {
@@ -228,7 +253,7 @@ div.botao:hover {
 
     transition: all .2s;
 
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.301);
 }
 
 footer {
@@ -272,6 +297,7 @@ footer a:hover {
    nav a {
     margin: 0 20px;
    }
+
 
     section#produtos img {
         width: 350px;
