@@ -107,9 +107,12 @@ section#slider {
 section#sobre{
     margin: 50px auto;
     max-width: 800px;
-    border: 2px solid var(--cor3);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
+section#sobre h1 {
+    border-radius: 10px 10px 0px 0px;
 }
  
 section#sobre p {
